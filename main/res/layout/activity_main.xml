@@ -1,0 +1,41 @@
+pera<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/editTexName"
+              android:layout_width="300dp"
+              android:layout_height="80dp"
+              android:hint="Enter name :"
+              android:textSize="18sp"
+              android:layout_gravity="center"/>
+
+    <EditText android:id="@+id/editTextSecondName"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:hint="Enter second name :"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+    <EditText android:id="@+id/editTexAgeName"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:hint="Enter age :"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+    <Button android:id="@+id/buttonInsert"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:textSize="18sp"
+        android:text="INSERT"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="clickinsertButton"/>
+
+
+</LinearLayout>
